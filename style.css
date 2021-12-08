@@ -1,0 +1,88 @@
+*{
+    /* 내가 마진을 주지 않아도 마진과 패딩이 자동으로 주어진다. 꼭 제거하자 */
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1200px;
+    margin-left: calc((100% - 1200px) / 2);
+}
+
+.nav{
+    width: 1200px;
+    height: auto;
+    border: 1px black solid;
+    background-color: aqua;
+    box-sizing: border-box;
+    display: inline-block;
+}
+ul,li{
+    list-style: none;
+}
+
+.nav>ul{
+    width: auto;
+    height: auto;
+}
+
+.nav>ul>li{
+    width: 120px;
+    height: 60px;
+    border: 1px black solid;
+    /* 아래 옵션을 넣어주지 않으면 경계선 까지 합쳐서 너비가 102 픽셀이 나온다. */
+    box-sizing: border-box;
+    float: left;
+}
+
+.pagesheet{
+    margin-top: 30px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    display: inline-block;
+}
+
+.pagesheet>ul{
+    width: auto;
+    height: 60px;
+}
+/* auto는 텍스트 위주로 바뀐다. %는 상위 부모 자식의 크기에 따라 변경된다. 100%와 auto의 차이 */
+.pagesheet>ul>li{
+    line-height: 60px;
+    text-align: center;
+    width: 60px;
+    height: 100%;
+    float: left;
+    border: 1px solid black;
+}
+
+
+table{
+    margin-top: 30px;
+    width: 100%;
+    border-collapse: collapse;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    box-sizing: border-box;
+}
+
+
+th, td{
+    /* 해상도에 따라 선의 색상이 변한다. */
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.cal1{
+    width: 80px;
+}
+
+.cal2{
+    width: 200px;
+}
+
+.cal4{
+    width: 100px;
+}
