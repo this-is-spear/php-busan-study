@@ -14,8 +14,17 @@
     border: 1px black solid;
     background-color: aqua;
     box-sizing: border-box;
-    display: inline-block;
 }
+
+.nav::after{
+    content: '';
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+}
+
+
 ul,li{
     list-style: none;
 }
@@ -39,8 +48,16 @@ ul,li{
     position: relative;
     left: 50%;
     transform: translateX(-50%);
-    display: inline-block;
 }
+
+.pagesheet::after{
+    content: '';
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+}
+
 
 .pagesheet>ul{
     width: auto;
