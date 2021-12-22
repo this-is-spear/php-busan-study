@@ -25,3 +25,5 @@
 [2021-12-13 float 해제하기](https://github.com/Imaspear/Busan-Sturdy/blob/main/2021/12/2021-12-13.md)
 
 [2021-12-14 화요일 스터디](https://github.com/Imaspear/Busan-Sturdy/blob/main/2021/12/2021-12-14.md)
+
+[2021-12-22 화요일 스터디](https://github.com/Imaspear/Busan-Sturdy/blob/main/2021/12/2021-12-22.md)
